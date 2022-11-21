@@ -1,7 +1,7 @@
 ﻿import { useState } from 'react';
 
 export default function Main() {
-    let [a, b] = useState("Test");
+    let [a, b] = useState("Test"); //a의 값을 Test로 저장
 
     //메인페이지 backend code는 여기에 작성
 
@@ -16,7 +16,7 @@ export default function Main() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
-                        <h1><span onClick={() => { b(a = 1); } }>1</span></h1>
+                        <h1><span onClick={() => { b(a = 1); }}>1</span></h1> {/* 배너 내용 넣는 곳, onClick은 누르면 a의 값이 해당 숫자로 변함. 나중에 이 부분을 이미지로 바꿈 */}
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
                         <h1><span onClick={() => { b(a = 2); } }>2</span></h1>
@@ -35,7 +35,7 @@ export default function Main() {
                 </button>
             </div>
         </section><section id="Viewer">
-                <h1>{a}</h1>
+                <h1>{a}</h1> {/* a의 값에 따라 하단의 내용이 바뀜 */}
             </section></>
        
         );

@@ -43,6 +43,10 @@ h2 {
     padding: 20px;
 }
 
+.image_input{
+    width: 400px;
+}
+
 .content_input {
     width: 500px;
     height: 100px;
@@ -55,6 +59,11 @@ h2 {
 
 .Delete_input{
     width: 80px;
+}
+
+.wheel{
+    width: 35px;
+    height: 35px;
 }
 
 #oper_hr {

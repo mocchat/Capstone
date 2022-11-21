@@ -1,5 +1,4 @@
-﻿//react 설치한 후, useState, react-router-dom을 install해야 됨.
-
+﻿
 import './App.css';
 import Header from "./component/Header";
 import Footer from "./component/Footer";
